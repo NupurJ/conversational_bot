@@ -1,0 +1,51 @@
+[
+  {
+    "name": "tyu",
+    "city": "tyui",
+    "shelter": 1,
+    "food": 1,
+    "contact": "7890"
+  },
+  {
+    "name": "Ketto",
+    "city": "Mumbai",
+    "shelter": 0,
+    "food": 1,
+    "contact": "987654321"
+  },
+  {
+    "name": "Abcd",
+    "city": "Mumbai",
+    "shelter": 1,
+    "food": 1,
+    "contact": "9004"
+  },
+  {
+    "name": "Jhatkaa",
+    "city": "Delhi",
+    "shelter": 0,
+    "food": 1,
+    "contact": "27482482"
+  },
+  {
+    "name": "Raahat",
+    "city": "Chennai",
+    "shelter": 0,
+    "food": 1,
+    "contact": "9286472356"
+  },
+  {
+    "name": "Parivartan",
+    "city": "Kanpur",
+    "shelter": 0,
+    "food": 1,
+    "contact": "29864542739"
+  },
+  {
+    "name": "Food.org",
+    "city": "Delhi",
+    "shelter": 0,
+    "food": 1,
+    "contact": "932653"
+  }
+]

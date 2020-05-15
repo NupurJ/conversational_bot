@@ -1,0 +1,60 @@
+<aiml version="1.1" encoding="UTF-8">
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            <random>
+                <li>Hello!</li>
+                <li>Hey, there!</li>
+                <li>Hi!</li>
+                <li>Hello there!</li>
+                <li>Hey!</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>1</pattern>
+        <template>
+            Thank you for your response! To fill another entry, type 'NGO'.
+        </template>
+    </category>
+    <category>
+        <pattern>* NGO *</pattern>
+        <template>
+            <srai>1</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>2</pattern>
+        <template>
+            To find another NGO, type 'migrant'.
+        </template>
+    </category>
+    <category>
+        <pattern>* MIGRANT *</pattern>
+        <template>
+            <srai>2</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT ARE YOU</pattern>
+        <template>
+            I'm a bot, silly!
+        </template>
+    </category>
+    <category>
+        <pattern>ONE TIME I *</pattern>
+        <template>
+            <random>
+                <li>Go on.</li>
+                <li>How old are you?</li>
+                <li>Be more specific.</li>
+                <li>I did not know that.</li>
+                <li>Are you telling the truth?</li>
+                <li>I don't know what that means.</li>
+                <li>Try to tell me that another way.</li>
+                <li>Are you talking about an animal, vegetable or mineral?</li>
+                <li>What is it?</li>
+            </random>
+        </template>
+    </category>
+</aiml>

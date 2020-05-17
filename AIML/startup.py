@@ -12,7 +12,7 @@ def capitalise(s):
 
 def addNGO():
     name = capitalise(input("Enter the name of your NGO: "))
-    city = capitalise(input("Which cities does your NGO serve? "))
+    city = capitalise(input("Which city does your NGO serve? "))
     shelter = input("Does your NGO provide shelter? (y/n) ")
     shelter = 1 if shelter == "y" else 0
     food = input("Does your NGO provide food? (y/n) ")
@@ -48,9 +48,9 @@ def listNGO():
                 printNGO(matches)
             else:
                 print(
-                    "Sorry, we currently do not have information about NGOs in"
+                    "Sorry, we currently do not have information about NGOs in "
                     + city
-                    + "that can provide food"
+                    + " that can provide food"
                 )
         shelter = capitalise(input("Do you require shelter? (y/n) "))
         if shelter == "Y" or shelter == "YE" or shelter == "YES":
@@ -113,8 +113,12 @@ while True:
             "Please fill in your responses to the following questions so we can connect you with migrants in need: "
         )
         addNGO()
-    if output == "To find another NGO, type 'migrant'.":
+    elif output == "To find another NGO, type 'migrant'.":
         print(
             "Please fill in your responses to the following questions so we can connect you with an NGO: "
         )
         listNGO()
+    elif message == "quit":
+        exit()
+    else:
+        print(output)

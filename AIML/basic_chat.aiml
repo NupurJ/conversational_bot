@@ -1,4 +1,4 @@
-<aiml version="1.1" encoding="UTF-8">
+<aiml version="1.0.1" encoding="UTF-8">
     <category>
         <pattern>HELLO</pattern>
         <template>
@@ -8,7 +8,14 @@
                 <li>Hi!</li>
                 <li>Hello there!</li>
                 <li>Hey!</li>
+                <li>Greetings</li>
             </random>
+        </template>
+    </category>
+    <category>
+        <pattern>Hi</pattern>
+        <template>
+            <srai>Hello</srai>
         </template>
     </category>
     <category>
@@ -18,7 +25,7 @@
         </template>
     </category>
     <category>
-        <pattern>* NGO *</pattern>
+        <pattern>NGO</pattern>
         <template>
             <srai>1</srai>
         </template>
@@ -30,7 +37,7 @@
         </template>
     </category>
     <category>
-        <pattern>* MIGRANT *</pattern>
+        <pattern>MIGRANT</pattern>
         <template>
             <srai>2</srai>
         </template>
@@ -55,6 +62,12 @@
                 <li>Are you talking about an animal, vegetable or mineral?</li>
                 <li>What is it?</li>
             </random>
+        </template>
+    </category>
+    <category>
+        <pattern>quit</pattern>
+        <template>
+            quit
         </template>
     </category>
 </aiml>

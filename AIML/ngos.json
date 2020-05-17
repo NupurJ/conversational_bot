@@ -47,5 +47,19 @@
     "shelter": 0,
     "food": 1,
     "contact": "932653"
+  },
+  {
+    "name": "Quit",
+    "city": "Quit",
+    "shelter": 0,
+    "food": 0,
+    "contact": "173958"
+  },
+  {
+    "name": "Qwerty",
+    "city": "Guwahati",
+    "shelter": 0,
+    "food": 0,
+    "contact": "35082"
   }
 ]
